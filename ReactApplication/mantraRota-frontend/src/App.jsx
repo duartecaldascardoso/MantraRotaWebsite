@@ -11,7 +11,6 @@ function App() {
       
       <Contact />
       <About />
-      <Home />
     </BrowserRouter>
 
   )

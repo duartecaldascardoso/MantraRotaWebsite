@@ -15,8 +15,6 @@ const Cards = () => {
         TweenMax.from(cardAnime, .90, {opacity: 0, ease:Power3.easeIn})
     },)
         return (
-          <>
-          
           <div ref={el => cardAnime = el} className="cardContainer">
           {CardData.map(function(data){
               return (
@@ -29,9 +27,7 @@ const Cards = () => {
               </div>
               )
           })}
-          </div>
-          
-          </> 
+          </div> 
         )
     
 }
