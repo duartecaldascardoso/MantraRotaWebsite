@@ -1,10 +1,6 @@
 import Footer from "./Footer.js";
-import Translation from "./utils/Translation.js"; 
 
 const ContactPage = {
-    oninit: async function() {
-        await Translation.setLanguage('portuguese'); 
-    },
     view: function () {
         return m("div", [
             m("nav", [
@@ -15,10 +11,10 @@ const ContactPage = {
                 ])
             ]),
             m("div.content", [
-                m("h1", Translation.translate("hit_us_up")),
+                m("h1", "Hit us up!"),
                 m("p", [
-                    Translation.translate("contact_intro"),
-                    m("strong", Translation.translate("reach_out")),
+                    "Have questions or want to get in touch? ",
+                    m("strong", "Reach out to us at "),
                     m("a", { href: "mailto:mantrarotabanda@gmail.com", class: "mail-ref" }, "mantrarota.banda@gmail.com")
                 ]),
                 
