@@ -19,7 +19,7 @@ const Homepage = {
                     m("strong", "Straight outta Madalena. "),
                     " We are ready to perform anytime anywhere. Group of young musicians with a passion for their craft - started in October 2023."
                 ]),
-                m("img", { id :"mainImage", class: "main-page-image" , src: "docs/assets/band.jpeg", alt: "Main Page Image." })
+                m("img", { id :"mainImage", class: "main-page-image" , src: "docs/assets/band2.jpeg", alt: "Main Page Image." })
         
             ]),
             m(Footer)
