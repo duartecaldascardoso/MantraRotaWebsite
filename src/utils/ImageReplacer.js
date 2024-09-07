@@ -1,5 +1,5 @@
 const ImageReplacer = {
-    imageRepoPath: "/src/imageComponents/",
+    imageRepoPath: "docs/assets/",
     imageList: ["band.jpeg", "band2.jpeg"],
     currentIndex: 0,
 
