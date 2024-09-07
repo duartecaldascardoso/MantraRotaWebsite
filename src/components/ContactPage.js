@@ -8,7 +8,7 @@ const ContactPage = {
                     m("li", m(m.route.Link, { href: "/home" }, "Home")),
                     m("li", m(m.route.Link, { href: "/contact" }, "Contact")),
                     m("li", m(m.route.Link, { href: "/news" }, "News")),
-                    m("li", m(m.route.Link, { href: "/chooseYourCharacter" }, "Members"))
+                    //m("li", m(m.route.Link, { href: "/chooseYourCharacter" }, "Members"))
                 ])
             ]),
             m("div.content", [
@@ -27,7 +27,12 @@ const ContactPage = {
                         )
                     ]),
                     m("h2", "Management team: "),
-                    m("p", "We still have no management team, get in touch if you want to collaborate with us!")
+                    m("p", "We still have no management team, get in touch if you want to collaborate with us!"),
+                    m("br"),
+                    m("br"),
+                    m("br"),
+                    m("p", "Website made by:"), 
+                    m("a", {href: "https://www.instagram.com/dcaldascardoso/"}, "Duarte Cardoso")
                 ]),
                 
             ])

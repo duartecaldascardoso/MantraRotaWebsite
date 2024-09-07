@@ -10,5 +10,5 @@ m.route(root, "/", {
     "/home": Homepage,
     "/contact": ContactPage,
     "/news": NewsPage,
-    "/chooseYourCharacter": ChooseYourCharacter
+    //"/chooseYourCharacter": ChooseYourCharacter
 });
