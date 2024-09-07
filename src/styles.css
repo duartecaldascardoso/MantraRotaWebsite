@@ -73,10 +73,8 @@ footer {
     text-align: center;
     color: #f0f0f0;
     padding: 15px 0;
-    border-top: 2px solid orange; 
     font-size: 14px;
     width: 100%;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3); 
     position: absolute;
     left: 0;
     bottom: 0;

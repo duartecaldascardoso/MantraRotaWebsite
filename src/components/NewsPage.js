@@ -19,14 +19,15 @@ const NewsPage = {
                 m("ul", [
                     m("li", m(m.route.Link, { href: "/home" }, "Home")),
                     m("li", m(m.route.Link, { href: "/contact" }, "Contact")),
-                    m("li", m(m.route.Link, { href: "/news" }, "News"))
+                    m("li", m(m.route.Link, { href: "/news" }, "News")),
+                    m("li", m(m.route.Link, { href: "/chooseYourCharacter" }, "Members"))
                 ])
             ]),
             m("div.content", [
                 m("h1", "Check our news!")
             ]),
             m(SingleNews, {
-                imagePath: "/imageComponents/band.jpeg",
+                imagePath: "/src/imageComponents/band.jpeg",
                 newsTitle: "Mantra Rota's Website was just released!",
                 newsText: "After some development time, we finally present our website, which we are sure to represent our band in the best way possible.",
                 newsDate: "September 6, 2024."
