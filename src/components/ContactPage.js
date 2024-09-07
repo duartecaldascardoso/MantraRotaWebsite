@@ -16,11 +16,21 @@ const ContactPage = {
                 m("p", [
                     "Have questions or want to get in touch? ",
                     m("strong", "Reach out to us at "),
-                    m("a", { href: "mailto:mantrarotabanda@gmail.com", class: "mail-ref" }, "mantrarota.banda@gmail.com")
+                    m("a", { href: "mailto:mantrarotabanda@gmail.com", class: "mail-ref" }, "mantrarota.banda@gmail.com"),
+                    m("h2", "Streaming and Socials:"),
+                    m("div.social-icons", [
+                        m("a", { href: "https://www.instagram.com/mantrarota/", target: "_blank", class: "social-icon" }, 
+                            m("i", { class: "fab fa-instagram" })
+                        ),
+                        m("a", { href: "https://open.spotify.com/mantrarota", target: "_blank", class: "social-icon" },
+                            m("i", { class: "fab fa-spotify" })
+                        )
+                    ]),
+                    m("h2", "Management team: "),
+                    m("p", "We still have no management team, get in touch if you want to collaborate with us!")
                 ]),
                 
-            ]),
-            m(Footer)
+            ])
         ]);
     }
 };

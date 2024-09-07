@@ -32,6 +32,12 @@ const NewsPage = {
                 newsText: "After some development time, we finally present our website, which we are sure to represent our band in the best way possible.",
                 newsDate: "September 6, 2024."
             }),
+            m(SingleNews, {
+                imagePath: "/src/imageComponents/band.jpeg",
+                newsTitle: "Mantra Rota's Website was just released!",
+                newsText: "After some development time, we finally present our website, which we are sure to represent our band in the best way possible.",
+                newsDate: "September 6, 2024."
+            }),
             m(Footer)
         ]);
     }
