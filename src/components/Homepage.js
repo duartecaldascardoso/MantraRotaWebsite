@@ -1,5 +1,5 @@
 import Footer from "./Footer.js";
-import ImageReplacer from "./utils/ImageReplacer.js";
+import ImageReplacer from "../utils/ImageReplacer.js";
 
 const Homepage = {
     oncreate: function() {
@@ -21,7 +21,7 @@ const Homepage = {
                     m("strong", "Straight outta Madalena. "),
                     " Portuguese made - find out what we have been working on."
                 ]),
-                m("img", { id :"mainImage", class: "main-page-image" , src: "/src/components/imageComponents/band.jpeg", alt: "Main Page Image." })
+                m("img", { id :"mainImage", class: "main-page-image" , src: "/src/imageComponents/band.jpeg", alt: "Main Page Image." })
         
             ]),
             m(Footer)

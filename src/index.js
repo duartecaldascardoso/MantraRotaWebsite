@@ -1,6 +1,6 @@
-import ContactPage from './src/components/ContactPage.js';
-import NewsPage from './src/components/NewsPage.js';
-import Homepage from './src/components/Homepage.js';
+import ContactPage from './components/ContactPage.js';
+import NewsPage from './components/NewsPage.js';
+import Homepage from './components/Homepage.js';
 
 const root = document.getElementById('app');
 
