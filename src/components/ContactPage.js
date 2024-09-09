@@ -12,7 +12,7 @@ const ContactPage = {
                 ])
             ]),
             m("div.content", [
-                m("h1", "Hit us up!"),
+                m("h1", { class: "header-text" }, "Hit us up!"),
                 m("p", [
                     "Have questions or want to get in touch? ",
                     m("strong", "Reach out to us at "),

@@ -17,6 +17,13 @@ a:focus {
     color: orange;
 }
 
+.header-text {
+    font-family: 'Monoton';
+    color: orange;
+    font-weight: 0;
+    font-size: 30px;
+}
+
 h1 {
     color: orange; 
     text-align: center;

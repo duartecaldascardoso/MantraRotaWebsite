@@ -13,7 +13,7 @@ const NewsPage = {
                 ])
             ]),
             m("div.content", [
-                m("h1", "Check our news!"),
+                m("h1", { class: "header-text" }, "Check our news!"),
                 m(SingleNews, {
                     imagePath: "docs/assets/band2.jpeg",
                     newsTitle: "Mantra Rota's Website was just released",

@@ -14,7 +14,7 @@ const Homepage = {
                 ])
             ]),
             m("div.content", [
-                m("h1", "Mantra Rota"),
+                m("h1", { class: "header-text" }, "Mantra Rota"),
                 m("p", { class: "main-page-text" }, [
                     m("strong", "Straight outta Madalena. "),
                     " We are ready to perform anytime anywhere. Group of young musicians with a passion for their craft - started in October 2023."
