@@ -23,13 +23,13 @@ const NewsPage = {
                 m(SingleNews, {
                     imagePath: "docs/assets/band5.jpeg",
                     newsTitle: "Studio day and first recorded track",
-                    newsText: "After a long time for preparation, we finally hit if off in the studio and recorded one of our songs. Any clue about which one? Make sure to stick around so that you know it as soon as it is revealed. ",
-                    newsDate: "September 6, 2023."
+                    newsText: "After a long time for preparation, we finally hit if off in the studio and recorded one of our songs. Any clue about which one? We recorded at ESMAE with the help of some of our friends. Stick around so that you hear it as soon as it is revealed. ",
+                    newsDate: "June 29, 2024."
                 }),
                 m(SingleNews, {
                     imagePath: "docs/assets/band3.jpeg",
                     newsTitle: "We had our first gig in Plano B",
-                    newsText: "We had the pleasure to perform in our first gig in Plano B Porto - all because of the contest to perform in the Queima das Fitas festival. Make sure not to miss our next show!",
+                    newsText: "We had the pleasure to perform in our first gig in Plano B Porto - all because of the contest to perform in the Queima das Fitas festival. You can check bits of our performance in our instagram page - run!",
                     newsDate: "April 18, 2024."
                 }),
                 m(SingleNews, {
