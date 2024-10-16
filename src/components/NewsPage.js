@@ -15,6 +15,12 @@ const NewsPage = {
             m("div.content", [
                 m("h1", { class: "header-text" }, "Check our news!"),
                 m(SingleNews, {
+                    imagePath: "docs/assets/band4.jpeg",
+                    newsTitle: "1 Year of Mantra Rota!",
+                    newsText: "Today we celebrate our first year of existence. We hope to celebrate this day for many years to come. We are working hard to bring you new shows and surprises :)",
+                    newsDate: "October 16, 2024."
+                }),
+                m(SingleNews, {
                     imagePath: "docs/assets/band2.jpeg",
                     newsTitle: "Mantra Rota's Website was just released",
                     newsText: "We are providing it and you are seeing it right now! Our website aims the purpose of keeping everyone aware of our latest news and achievemnts, make sure to bookmark it so you do not miss any of our content.",
@@ -36,7 +42,7 @@ const NewsPage = {
                     imagePath: "docs/assets/band4.jpeg",
                     newsTitle: "Mantra Rota is now a reality",
                     newsText: "This day marks the beggining of something good and a new era in each of our lives. We hope to celebrate this day for many years to come!",
-                    newsDate: "October 12, 2023."
+                    newsDate: "October 16, 2023."
                 }),
                 m(Footer)
             ]),
