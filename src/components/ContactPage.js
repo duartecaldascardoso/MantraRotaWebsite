@@ -1,5 +1,3 @@
-import Footer from "./Footer.js";
-
 const ContactPage = {
     view: function () {
         return m("div", [

@@ -15,6 +15,15 @@ const NewsPage = {
             m("div.content", [
                 m("h1", { class: "header-text" }, "Check our news!"),
                 m(SingleNews, {
+                    imagePath: "docs/assets/band6.jpeg",
+                    newsTitle: "We had our first concert at Uncle Joe's!",
+                    newsText: [
+                        "We finally had our first concert at Uncle Joe's. We had a blast and gathered a big crowd. Make sure not to miss our next show, we are working hard to bring you new surprises! We made sure to record it: ",
+                        m("a", { href: "https://www.youtube.com/watch?v=W5lKuCGPtwM", target: "_blank", rel: "noopener noreferrer" }, "Watch it here!")
+                    ],
+                    newsDate: "January 25, 2025."
+                }),
+                m(SingleNews, {
                     imagePath: "docs/assets/band4.jpeg",
                     newsTitle: "1 Year of Mantra Rota!",
                     newsText: "Today we celebrate our first year of existence. We hope to celebrate this day for many years to come. We are working hard to bring you new shows and surprises :)",
