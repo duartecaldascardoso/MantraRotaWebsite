@@ -6,8 +6,8 @@ const Footer = {
                 m("a", { href: "https://www.instagram.com/mantrarota/", target: "_blank", class: "social-icon" }, 
                     m("i", { class: "fab fa-instagram" })
                 ),
-                m("a", { href: "https://open.spotify.com/mantrarota", target: "_blank", class: "social-icon" },
-                    m("i", { class: "fab fa-spotify" })
+                m("a", { href: "https://www.youtube.com/@MantraRota", target: "_blank", class: "social-icon" },
+                    m("i", { class: "fab fa-youtube" })
                 )
             ])
         ]);
