@@ -9,7 +9,7 @@ const NewsPage = {
                     m("li", m(m.route.Link, { href: "/home" }, "Home")),
                     m("li", m(m.route.Link, { href: "/contact" }, "Contact")),
                     m("li", m(m.route.Link, { href: "/news" }, "News")),
-                    //m("li", m(m.route.Link, { href: "/chooseYourCharacter" }, "Members"))
+                    m("li", m(m.route.Link, { href: "/chooseYourCharacter" }, "Members"))
                 ])
             ]),
             m("div.content", [
