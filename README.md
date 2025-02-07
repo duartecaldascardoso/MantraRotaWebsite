@@ -1,4 +1,4 @@
-# MantraRotaWebsite
+# Mantra Rota
 
 This is the repository for the Mantra Rota Website. 
 
