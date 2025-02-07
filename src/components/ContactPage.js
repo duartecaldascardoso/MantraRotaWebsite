@@ -30,7 +30,13 @@ const ContactPage = {
                     m("br"),
                     m("br"),
                     m("p", "Website made by:"), 
-                    m("a", {href: "https://www.instagram.com/dcaldascardoso/"}, "Duarte Cardoso")
+                    m("a", {href: "https://www.instagram.com/dcaldascardoso/"}, "Duarte Cardoso"),
+                    m("p", "Open source, check the code at:"),
+                    m("div.social-icons", [
+                        m("a", { href: "https://github.com/duartecaldascardoso/MantraRotaWebsite", target: "_blank", class: "social-icon" },
+                            m("i", { class: "fab fa-github" })
+                        ),
+                    ]),
                 ]),
                 
             ])
